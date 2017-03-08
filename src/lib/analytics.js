@@ -24,7 +24,8 @@ const track = store => next => (action) => {
             : action.scene.analyticsDesc;
 
           // Send to Google Analytics
-          GoogleAnalytics.trackScreenView(screenName);
+          // TODO注释掉统计
+          //GoogleAnalytics.trackScreenView(screenName);
         } catch (err) {
           console.log(err);
         }

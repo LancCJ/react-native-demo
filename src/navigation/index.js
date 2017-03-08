@@ -35,7 +35,7 @@ export default Actions.create(
     {/* Main App */}
     <Scene key={'app'} {...AppConfig.navbarProps} title={AppConfig.appName} hideNavBar={false} type={ActionConst.RESET}>
       {/* Drawer Side Menu */}
-      <Scene key={'home'} component={Drawer} initial={'tabBar'}>
+      <Scene key={'home'} component={Drawer} initial={'tabBar'}  >
         {/* Tabbar */}
         {TabsScenes}
       </Scene>

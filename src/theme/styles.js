@@ -241,4 +241,11 @@ export default {
     borderTopColor: Colors.border,
     borderTopWidth: 1,
   },
+
+  /***SwiperBanner页面**/
+  swiperBannerImage:{
+      width:Sizes.screen.width,
+      height:Sizes.screen.heightThird,
+      resizeMode:'cover'
+  }
 };
