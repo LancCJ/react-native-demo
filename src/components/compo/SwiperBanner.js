@@ -20,7 +20,7 @@ import { SearchBar,normalize } from 'react-native-elements'
 export default class SwiperBanner extends Component {
     render() {
         return (
-        <View style={[AppStyles.container]}>
+        <View style={[AppStyles.COLUMN_CONTAINER]}>
             <SearchBar
                 lightTheme
                 containerStyle={{

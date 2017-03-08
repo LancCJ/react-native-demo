@@ -21,11 +21,15 @@ export default {
     },
     // 垂直容器
     COLUMN_CONTAINER: {
-        flex: 1,
         flexDirection: 'column',
     },
 
   // Default
+    CONTAINER2: {
+        flex: 1,
+        flexDirection: 'column',
+        backgroundColor: Colors.background,
+    },
   container: {
     position: 'relative',
     flex: 1,
@@ -379,4 +383,8 @@ export default {
         marginTop:Sizes.screen.height*0.03,
         alignSelf:"flex-end"
     }
+
+
+
+
 };

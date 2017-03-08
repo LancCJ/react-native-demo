@@ -42,7 +42,7 @@ export default class LineButtons extends Component {
 
     render() {
         return (
-            <View style={[AppStyles.container]}>
+            <View>
                 <GridView
                     items={this.state.modelDataSource}
                     itemsPerRow={4}

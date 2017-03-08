@@ -24,10 +24,7 @@ import LineButtons from '@components/compo/LineButtons';
 
 /* Styles ==================================================================== */
 const styles = StyleSheet.create({
-    launchImage: {
-        width: AppSizes.screen.width,
-        height: AppSizes.screen.height,
-    },
+
 });
 
 /* Component ==================================================================== */
@@ -43,7 +40,7 @@ class Main extends Component {
     }
 
     render = () => (
-        <View style={[AppStyles.container]}>
+        <View style={[AppStyles.COLUMN_CONTAINER]}>
             <SwiperBanner/>
             <LineButtons/>
         </View>

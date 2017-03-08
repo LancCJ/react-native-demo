@@ -44,8 +44,8 @@ export default {
 
   //一些常量设置
       cols : 5, //一行几个cell
-  cellWH : 70, //cell的宽高
-  vMargin : (screenWidth - 70 * 5)/ (5 + 1) ,//cell之间的边距
+  cellWH : 80, //cell的宽高
+  vMargin : (screenWidth - 80 * 5)/ (5 + 1) ,//cell之间的边距
   hMargin : 20,
   PER_ROW :3,
 };
