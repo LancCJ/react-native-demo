@@ -20,6 +20,7 @@ import { Actions } from 'react-native-router-flux';
 import { AppStyles, AppSizes } from '@theme/';
 import { Text} from '@ui/';
 import SwiperBanner from '@components/compo/SwiperBanner';
+import LineButtons from '@components/compo/LineButtons';
 
 /* Styles ==================================================================== */
 const styles = StyleSheet.create({
@@ -44,6 +45,7 @@ class Main extends Component {
     render = () => (
         <View style={[AppStyles.container]}>
             <SwiperBanner/>
+            <LineButtons/>
         </View>
     );
 }

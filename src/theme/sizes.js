@@ -36,4 +36,16 @@ export default {
   paddingSml: 10,
 
   borderRadius: 2,
+    bannerHeight:screenHeight/3,
+    chartHeight:screenWidth/2.5,
+    newsHeight:screenHeight/8,
+    mailsHeight:screenHeight/10,
+    mailDetailInfoHeight:screenHeight/12,
+
+  //一些常量设置
+      cols : 5, //一行几个cell
+  cellWH : 70, //cell的宽高
+  vMargin : (screenWidth - 70 * 5)/ (5 + 1) ,//cell之间的边距
+  hMargin : 20,
+  PER_ROW :3,
 };

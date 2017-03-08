@@ -3,13 +3,8 @@
  */
 import React, {Component} from 'react';
 import {
-    AppRegistry,
-    StyleSheet,
-    Text,
     View,
-    Image,
-    ListView,
-    Alert
+    Image
 } from 'react-native';
 
 // Consts and Libs
@@ -66,9 +61,6 @@ export default class SwiperBanner extends Component {
                     />
                 </View>
             </Swiper>
-
-
-
         </View>
         )
     }

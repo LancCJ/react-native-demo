@@ -14,6 +14,17 @@ export default {
     backgroundColor: '#000',
   },
 
+    // 水平容器
+    ROW_CONTAINER: {
+        flex: 1,
+        flexDirection: 'row',
+    },
+    // 垂直容器
+    COLUMN_CONTAINER: {
+        flex: 1,
+        flexDirection: 'column',
+    },
+
   // Default
   container: {
     position: 'relative',
@@ -247,5 +258,125 @@ export default {
       width:Sizes.screen.width,
       height:Sizes.screen.heightThird,
       resizeMode:'cover'
-  }
+  },
+    /****功能模块列表样式****/
+    listModels:{
+        //改变主轴方向
+        flexDirection:'row',
+        //多行显示
+        flexWrap:'wrap'
+    },
+    innerViewStyle:{
+        width:Sizes.cellWH,
+        height:Sizes.cellWH,
+        marginLeft:Sizes.vMargin,
+        marginTop:Sizes.hMargin,
+        alignItems:'center'
+    },
+    iconStyle :{
+        width:40,
+        height:40
+    },
+    /****新闻公告样式****/
+    news:{
+        marginTop:Sizes.screen.height*0.01,
+    },
+    swiperNews:{
+    },
+    swiperNewsImage:{
+        width:Sizes.screen.width,
+        height:Sizes.screen.width/2.5,
+        resizeMode:'cover'
+    },
+    listNews:{
+        marginTop:Sizes.screen.height*0.01,
+        borderTopColor:'#F2F2F2',
+        borderTopWidth:2,
+    },
+    /****新闻列表样式****/
+    listNewsRowContent:{
+        flex:3,
+        height:Sizes.newsHeight,
+        justifyContent:'space-around'
+    },
+    listNewsRowImage:{
+        flex:2,
+        height:Sizes.newsHeight,
+        resizeMode:'cover'
+    },
+    listMails:{
+        marginTop:Sizes.screen.height*0.01,
+        width:Sizes.screen.width,
+        height:Sizes.mailsHeight,
+        borderTopColor:'#F2F2F2',
+        borderTopWidth:2,
+    },
+    mailViewStyle:{
+        alignItems:'center',
+        justifyContent:'center',
+        borderBottomColor:'#F2F2F2',
+        borderBottomWidth:2,
+        padding:Sizes.screen.width*0.01
+    },
+    listMailRowImage:{
+        flex:1,
+        height:Sizes.mailsHeight,
+        resizeMode:'cover'
+    },
+    mailInfo:{
+        flex:5,
+        height:Sizes.mailsHeight,
+        alignItems:'flex-start',
+        justifyContent:'center',
+    },
+    mailDetailButtonView:{
+        flex:1,
+        height:Sizes.mailsHeight,
+        justifyContent:'flex-end',
+        borderBottomColor:'#FB462A',
+        borderBottomWidth:2,
+    },
+    mailDetailButton:{
+        fontSize:12,
+        color:'#FB462A'
+    },
+    mailDetailInfo:{
+        width:Sizes.screen.width,
+        height:Sizes.mailDetailInfoHeight,
+        flexDirection: 'row',
+        padding:Sizes.screen.width*0.02
+
+    },
+    mailDetailImage:{
+        flex:1,
+        height:Sizes.mailDetailInfoHeight,
+        resizeMode:'cover'
+    },
+    mailDetailTitle:{
+        flex:5,
+        height:Sizes.mailDetailInfoHeight,
+        justifyContent:"space-around",
+        alignItems:'flex-start',
+        marginLeft:Sizes.screen.width*0.02,
+    },
+    mailContent:{
+        backgroundColor:"#FFFEE7",
+        padding:Sizes.screen.width*0.02,
+        marginTop:Sizes.screen.height*0.02,
+        justifyContent:"space-between",
+        paddingBottom:Sizes.screen.height*0.04
+    },
+    handlingSuggestion:{
+        alignItems:'flex-start',
+        justifyContent:'center',
+        marginTop:Sizes.screen.height*0.01,
+        padding:Sizes.screen.width*0.02,
+    },
+    handlingSuggestionText:{
+        color:'#F1764E'
+    },
+    mailDatailSender:{
+        marginTop:Sizes.screen.height*0.03,
+        alignSelf:"flex-end"
+    }
 };
